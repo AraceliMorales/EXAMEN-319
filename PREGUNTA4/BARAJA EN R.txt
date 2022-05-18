@@ -1,0 +1,60 @@
+> conjunto_cartas<-c("A",2:10,"J","Q","K")
+> cartas<-c(rep(conjunto_cartas,4))
+> conjunto_tipos<-c("corazon","trebol","diamante","espada")
+> tipos<-c(rep(conjunto_tipos(13,4)))"conjunto_tipos"
+> tipos<-c(rep(conjunto_tipos,rep(13,4)))
+> baraja=data.frame(cartas,tipos)
+> baraja
+   cartas    tipos
+1       A  corazon
+2       2  corazon
+3       3  corazon
+4       4  corazon
+5       5  corazon
+6       6  corazon
+7       7  corazon
+8       8  corazon
+9       9  corazon
+10     10  corazon
+11      J  corazon
+12      Q  corazon
+13      K  corazon
+14      A   trebol
+15      2   trebol
+16      3   trebol
+17      4   trebol
+18      5   trebol
+19      6   trebol
+20      7   trebol
+21      8   trebol
+22      9   trebol
+23     10   trebol
+24      J   trebol
+25      Q   trebol
+26      K   trebol
+27      A diamante
+28      2 diamante
+29      3 diamante
+30      4 diamante
+31      5 diamante
+32      6 diamante
+33      7 diamante
+34      8 diamante
+35      9 diamante
+36     10 diamante
+37      J diamante
+38      Q diamante
+39      K diamante
+40      A   espada
+41      2   espada
+42      3   espada
+43      4   espada
+44      5   espada
+45      6   espada
+46      7   espada
+47      8   espada
+48      9   espada
+49     10   espada
+50      J   espada
+51      Q   espada
+52      K   espada
